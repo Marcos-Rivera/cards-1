@@ -32,7 +32,15 @@ body {
     -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
     -moz-box-shadow: 3px 3px 10px 3px #dddddd;
     box-shadow: 3px 3px 10px 3px #dddddd;
-}
+    flex-grow: 1;
+    flex-shrink: 1; /* default 1 */
+    min-width: 0;
+   }
+
+   .card-1  > * {
+    width: auto;
+   }
+  
 
 .img-container {
     display: flex;
@@ -46,6 +54,7 @@ body {
     background: linear-gradient(to right, #5fc52e, #6eee87);
     justify-content: center;
     align-items: center;
+    flex-shrink: 1; /* default 1 */
 }
 
 .fa-images {
@@ -75,9 +84,6 @@ body {
 
 }
 
-.btn-1 {
-    margin: ;
-}
 
 
 a.my-button {
@@ -93,12 +99,16 @@ a.my-button {
     font-size: 1.375rem;
     font-weight: 500;
     font-style: normal;
+ 
+    
+   
     /* margin-bottom: 0.75rem; */
 
     padding: 16px 56px;
     text-decoration: none;
     text-align: center;
     width: 22.25rem;
+    min-width: 1rem;
     margin-top: 1.625rem;
     margin-bottom: 1rem;
 

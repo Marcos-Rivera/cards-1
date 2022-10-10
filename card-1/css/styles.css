@@ -1,0 +1,137 @@
+/* font-family: 'Inter', sans-serif; */
+.html {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: grey; */
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    margin: 20px;
+    background: #E3F6F5;
+}
+
+.card-1 {
+    align-items: flex-end;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 23.75rem;
+
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+
+    -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
+    -moz-box-shadow: 3px 3px 10px 3px #dddddd;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+}
+
+.img-container {
+    display: flex;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    width: 22.25rem;
+    height: 13.188rem;
+    margin: auto;
+    margin-top: 1rem;
+    background: linear-gradient(to right, #5fc52e, #6eee87);
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-images {
+    color: green;
+}
+
+.text {
+    margin: auto;
+    width: 22.25rem;
+}
+
+.heading-1 {
+    color: #1E293B;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1.125rem;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.lead-1 {
+    color: #475569;
+    font-size: 1.25rem;
+    display: inline-block;
+    margin-top: 1.125rem;
+    margin-bottom: 0;
+
+}
+
+.btn-1 {
+    margin: ;
+}
+
+
+a.my-button {
+
+    background: linear-gradient(to right, #196BCA, #6433E0);
+    background-color: #196BCA;
+    border: 0px solid #000;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.375rem;
+    font-weight: 500;
+    font-style: normal;
+    /* margin-bottom: 0.75rem; */
+
+    padding: 16px 56px;
+    text-decoration: none;
+    text-align: center;
+    width: 22.25rem;
+    margin-top: 1.625rem;
+    margin-bottom: 1rem;
+
+}
+
+a.my-button:hover {
+    background: linear-gradient(to right, #5482d0, #7d5ee3);
+    background-color: #5482d0;
+}
+
+a.my-button:active {
+    background: linear-gradient(to right, #5482d0, #7d5ee3);
+
+}
+
+
+
+/* .buttonClass {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:0px;
+    color:#fff;
+    border-color:#18ab29;
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    background:linear-gradient(#44c767, #5cbf2a);
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(#5cbf2a, #44c767);
+  } */
